@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <title>Olympia 2024</title>
+        <link rel="stylesheet" href="corridore.css">
+        <script src="corridore.js"></script>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100vh; /* Imposta l'altezza al 100% della viewport height */
+                overflow: hidden; /* Impedisce lo scrolling oltre la dimensione fissa */
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id ="h1"> Olympia 2024</h1>
+        <canvas id="board"></canvas>
+       
+        <p id="score"></p>
+        <form method='POST' action='Insert_Comment.php'> <!-- Assicurati di specificare il nome del tuo script PHP -->
+            <label for='comment'>Kommentare hinzufügen:</label>
+            <textarea id='comment' name='comment' rows='4' cols='50' placeholder='kommentare...'></textarea><br>
+            <input id = 'kommentare' type='submit' value='kommentare senden'>
+          </form>";
+    </body>
+</html>

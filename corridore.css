@@ -1,0 +1,153 @@
+body {
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+#board {
+  background-color:  rgb(141, 168, 164);
+  border-bottom: 1px solid black;
+}
+input[type="text"] {
+  color: rgb(255, 255, 255);
+  background-color: darkslategray;
+  transition : background-color 2s
+
+
+}
+input[type="text"]:focus{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+
+
+
+}
+
+input[type="password"] {
+  color: rgb(255, 255, 255);
+  background-color: darkslategray;
+  transition : background-color 2s
+
+
+}
+input[type="password"]:focus{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+
+
+
+}
+input[type="submit"]{
+
+background-color: rgb(43, 127, 113);
+color : black;
+width:  100px;
+height: 35px;
+border:color(from color srgb r g b);
+border-radius: 20px;
+cursor: pointer;
+border-width: 5px;
+box-shadow: 10px 10px 10px  rgba(0,0,0,0.5);
+transition :  width 2s,opacity 2s,background-color 2s, color 2s;}
+
+input[type="submit"]:hover
+            {
+
+                opacity: 0.8;
+                background-color: rgb(4, 46, 43);
+                width : 150px;
+                color : white;
+                }
+button 
+{
+
+background-color: rgb(43, 127, 113);
+color : black;
+border:color(from color srgb r g b);
+border-radius: 20px;
+cursor: pointer;
+border-width: 5px;
+box-shadow: 10px 10px 10px  rgba(0,0,0,0.5);
+transition :  width 2s,opacity 2s,background-color 2s, color 2s;}
+
+
+
+
+button:hover
+{
+
+opacity: 0.8;
+background-color: rgb(4, 46, 43);
+
+color : white;
+}
+
+
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 150vh;
+margin: 0;
+color: white;
+font-family: system-ui;
+background-color: rgb(2, 21, 20);
+
+
+}
+
+form {
+display: flex;
+flex-direction: column;
+width: 500px;
+padding: 40px;
+}
+
+label {
+margin-bottom: 5px;
+}
+
+input {
+margin: 10px;
+}
+
+.form-group {
+flex: 1;
+}
+
+#registrationFields {
+display: none; /* Nascondi il campo di registrazione di default */
+}
+
+#hideRegistration {
+margin-top: 10px;
+}
+@keyframes glow {
+0% { text-shadow: 0 0 45px #91ffde; top: 2px ;left: 50px;} 
+50% { text-shadow: 0 0 240px #91ff91;top: 2px ;left: 950px; }
+100% { text-shadow: 0 0 45px  #a791ff;top: 2px ;left: 50px; }}
+
+
+#h1 {
+  position: absolute;
+  color: rgb(141, 168, 164);
+  text-shadow:  0 0 240px #91ff91;
+  /* animation:glow 240s infinite; */
+  font-size:70px;
+  padding-top: 0px;
+  top: 2px ;left: 30%;
+} 
+#board {
+  margin-top: 0px;
+  margin-left: 10%;
+
+
+
+
+}
+ #kommentare {
+
+  width: 200px;
+  height: 50px;
+
+
+ }
